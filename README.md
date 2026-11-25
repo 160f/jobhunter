@@ -104,6 +104,41 @@ Abra no navegador: **[http://localhost:8000](http://localhost:8000)**
 
 ---
 
+## Como Importar e Usar no OpenBot (com Gemini)
+
+Integrar o **Job Hunter** no **OpenBot** com um modelo **Gemini** (Google) é a melhor combinação para automação completa, pois o Gemini possui excelente capacidade analítica e facilidade de integração com o Gmail para auditoria automática de retornos de candidaturas.
+
+### Passo a Passo de Importação:
+
+1. **Clonar o Repositório:**
+   Clone o repositório para o diretório de agentes do seu OpenBot:
+   ```bash
+   git clone https://github.com/160f/jobhunter.git "C:\Users\<SEU_USUARIO>\OpenBot\Agents\jobhunter"
+   ```
+
+2. **Criar o Agente no OpenBot:**
+   - Abra o **OpenBot**.
+   - No menu lateral esquerdo, clique no botão **`+` (Novo Agente)**.
+   - **Nome:** Digite `Job Hunter`.
+   - **Pasta de Trabalho (Workspace):** Aponte para a pasta clonada (`.../OpenBot/Agents/jobhunter`).
+   - **Modelo (LLM):** Selecione **Gemini** (ex: `Gemini 1.5 Pro` ou `Gemini 2.0 Flash`).
+   - **Instruções:** O OpenBot carrega automaticamente o arquivo [AGENTS.md](AGENTS.md) da raiz. Na descrição do perfil, você pode resumir a meta (ex: *Agente autônomo de busca de vagas remotas, triagem e acompanhamento*).
+
+3. **Configurar as Rotinas Automáticas:**
+   Na aba **Rotinas** do OpenBot (ou via chat com o agente), configure os três agendamentos diários:
+   - **09:00 — Busca Principal de Vagas:** Dispara a varredura matinal de APIs e triagem de novas oportunidades.
+   - **15:00 — Busca Incremental:** Consulta rápida para capturar anúncios recém-publicados.
+   - **18:00 — Verificação Diária de E-mail (Gmail):** O agente com Gemini consulta os e-mails do dia buscando retornos de candidaturas (*"entrevista"*, *"interview"*, *"processo seletivo"*, *"rejeição"*) e atualiza os status nos arquivos CSV.
+
+4. **Iniciar o Painel Web do Agente:**
+   Para acompanhar visualmente pelo painel interativo, basta rodar no terminal da pasta:
+   ```bash
+   python painel.py
+   ```
+   E acessar `http://localhost:8050`.
+
+---
+
 ## Segurança e Privacidade
 
 O arquivo `.gitignore` deste repositório foi pré-configurado para **nunca subir dados pessoais**:
