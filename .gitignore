@@ -1,0 +1,60 @@
+# Ambientes virtuais e compilacao Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Dados pessoais, curriculos reais e aplicacoes especificas (privacidade estrita)
+perfil_cv_referencia.txt
+perfil_cv_referencia.md
+*.pdf
+curriculo_profissional.html
+!curriculos/.gitkeep
+candidatura_*.md
+Property_Leads_*.md
+portfolio_property_leads_*.md
+generate_*_resume.py
+
+# Arquivos de dados, configuracoes locais e historico de producao
+config_painel.json
+vagas.csv
+candidaturas_acompanhamento.csv
+job_hunter_*.json
+job_hunter_*.csv
+job_hunter_fila_*
+
+# Scripts legados ou de auditoria pontual
+scripts/gerar_curriculo_*.py
+scripts/gerar_curriculos_*.py
+scripts/registrar_vagas_*.py
+scripts/registrar_envios_*.py
+scripts/atualizar_*.py
+scripts/inspecionar_*.py
+scripts/analisar_*.py
+scripts/verificar_*.py
+scripts/teste_*.py
+scripts/reconstruir_*.py
+scripts/detalhes_*.py
+scripts/extrair_*.py
+scripts/filtrar_*.py
+scripts/imprimir_*.py
+scripts/limpar_*.py
+scripts/listar_*.py
+scripts/auditar_*.py
+scripts/check_*.py
+scripts/adicionar_*.py
+scripts/verificacoes_*.json
+scripts/buscar_e_filtrar_vagas_v2.py
+scripts/config_job_hunter_v3.json
+scripts/job_hunter_v3.py
+
+# Bases de dados locais e configuracoes de IDE / OpenBot
+*.db
+*.sqlite*
+.openbot/
+.claude/
+.agents/
+.vscode/
+.idea/

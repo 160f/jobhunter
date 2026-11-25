@@ -1,0 +1,48 @@
+{
+  "plataformas": [
+    {
+      "nome": "Ashby",
+      "nota": "Portais diretos e vagas tecnicas remotas"
+    },
+    {
+      "nome": "Greenhouse",
+      "nota": "Candidaturas remotas e avaliacao de IA/dados"
+    },
+    {
+      "nome": "Himalayas",
+      "nota": "Oportunidades internacionais em dolar e remotas"
+    },
+    {
+      "nome": "Gupy",
+      "nota": "Vagas remotas no Brasil"
+    },
+    {
+      "nome": "LinkedIn",
+      "nota": "Feed e buscas filtradas para Brasil"
+    }
+  ],
+  "vagas_buscadas": [
+    {
+      "cargo": "Python Developer / Backend",
+      "foco": "Automacao, APIs, dados e scripts"
+    },
+    {
+      "cargo": "AI Agent / AI Coding / AI Evaluation",
+      "foco": "Avaliacao, prompts, fluxos e codigo com IA"
+    },
+    {
+      "cargo": "Data Analyst / Quantitative Research",
+      "foco": "SQL, Python, metricas e analise de dados"
+    }
+  ],
+  "modalidades": [
+    "Remota"
+  ],
+  "regimes": [
+    "CLT",
+    "PJ"
+  ],
+  "modo_envio": "aprovacao",
+  "verificar_email_diario": true,
+  "horario_email_diario": "18:00"
+}

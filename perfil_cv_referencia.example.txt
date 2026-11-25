@@ -1,0 +1,30 @@
+# Perfil Profissional de Referencia (Modelo de Exemplo)
+# Preencha com suas informacoes reais para que o agente possa utilizá-las na triagem e no curriculo.
+
+Nome: [Seu Nome Completo]
+Email: [seu_email@exemplo.com]
+Telefone: [+55 (XX) 99999-9999]
+Localizacao: [Sua Cidade/Estado/Pais]
+Modalidade Desejada: [Remota / Hibrida / Presencial]
+Regimes Desejados: [CLT / PJ / Freelance / Contratos Internacionais]
+
+## Idiomas
+- Portugues: Nativo
+- Ingles: [Basico instrumental / Intermediario / Fluente]
+- Espanhol: [Nenhum / Basico / Intermediario / Fluente]
+
+## Formacao Academica
+- [Graduacao, cursos tecnicos ou perfil autodidata]
+
+## Resumo Profissional
+[Descreva seu resumo profissional, focando em suas principais competencias tecnicas e objetivos de carreira.]
+
+## Experiencias Profissionais
+- [Ano Inicial - Ano Final] [Cargo / Funcao] - [Empresa / Projeto]
+  - [Atividade realizada 1]
+  - [Atividade realizada 2]
+
+## Competencias Tecnicas
+- Linguagens: [ex: Python, JavaScript, SQL]
+- Ferramentas e Frameworks: [ex: FastAPI, Docker, Pandas, Git]
+- Areas de Atuacao: [ex: Backend, Automacao, Analise de Dados, Suporte Tecnico]

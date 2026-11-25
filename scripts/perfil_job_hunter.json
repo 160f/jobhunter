@@ -1,0 +1,46 @@
+{
+  "projeto": "Job Hunter",
+  "objetivo": "Obter aproximadamente R$ 3.000 líquidos adicionais por mês; preferência por trabalho remoto, previsibilidade e, quando viável, receita em dólar.",
+  "idiomas": {
+    "portugues": "nativo",
+    "espanhol": "intermediário",
+    "ingles": "básico"
+  },
+  "formacao": "Autodidata; não declarar graduação superior formal.",
+  "historico_profissional": {
+    "ti": {
+      "periodo": "2002–2014",
+      "duracao_total": "12 anos de experiência profissional na área de TI",
+      "atividades": [
+        "suporte técnico presencial e remoto",
+        "infraestrutura e administração de servidores",
+        "Windows Server e Linux",
+        "Active Directory",
+        "redes",
+        "virtualização VMware e Hyper-V",
+        "SQL Server",
+        "firewalls e backups"
+      ],
+      "ressalva": "O período de TI é 2002–2014. Não presumir que houve atuação profissional ininterrupta nessas tecnologias depois de 2014 nem 12 anos em cada ferramenta. Verificar atualização técnica para vagas atuais."
+    },
+    "a_partir_de_2014": [
+      "mercado financeiro e pesquisa quantitativa",
+      "desenvolvimento prático de Python, automações, integração de APIs e análise de dados",
+      "modelagem e backtesting de estratégias quantitativas",
+      "desenvolvimento e avaliação prática de agentes de IA",
+      "empreendedorismo na TR3nd Educação"
+    ]
+  },
+  "preferencias": {
+    "local": "Remoto elegível para residentes no Brasil",
+    "tipo": "CLT, PJ, contratos temporários e freelas; priorizar renda recorrente quando viável",
+    "areas_prioritarias": [
+      "Suporte técnico N2/N3, suporte a aplicações e SaaS",
+      "Infraestrutura, administração de servidores, redes e suporte remoto",
+      "Python, automação e integração de APIs",
+      "AI Training / Evaluation em português",
+      "Customer Support e Customer Success"
+    ]
+  },
+  "politica_de_avaliacao": "Pontuações locais servem somente para ranquear anúncios. Confirmar requisitos específicos, idiomas, graduação, modalidade e elegibilidade no anúncio original antes de recomendar candidatura. Não inventar experiências, certificações, salários ou domínio de tecnologias novas."
+}

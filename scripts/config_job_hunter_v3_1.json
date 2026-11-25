@@ -1,0 +1,31 @@
+{
+  "versao": "3.1",
+  "perfil": {
+    "pais": "BR",
+    "idiomas": ["portugues_nativo", "espanhol_intermediario", "ingles_basico"],
+    "ensino_superior_formal": false,
+    "preferencia": "remoto",
+    "habilidades": ["Python", "automacao", "APIs", "agentes de IA", "LLMs", "SQL", "infraestrutura", "Windows Server", "Linux", "redes", "suporte tecnico", "analise de dados", "mercado financeiro"]
+  },
+  "coleta": {
+    "greenhouse_boards": ["rdstation", "quintoandar", "agency", "prolificacademicltd", "vtex", "ebanx"],
+    "himalayas_termos": {
+      "EMPREGOS": ["python", "automation", "technical support", "IT support", "data analyst", "customer support", "quantitative"],
+      "IA": ["AI evaluator", "AI trainer", "coding evaluator", "data annotation", "Portuguese AI"]
+    },
+    "himalayas_paginas_por_termo": 1,
+    "himalayas_pausa_segundos": 1.2,
+    "remotive_limite": 500,
+    "remoteok_ativo": true,
+    "arbeitnow_paginas": 1,
+    "ashby_boards": [],
+    "lever_boards": []
+  },
+  "shortlist": {
+    "EMPREGOS": 15,
+    "IA": 12,
+    "PESQUISAS": 6,
+    "max_por_empresa_por_canal": 3,
+    "incluir_pendentes": true
+  }
+}
