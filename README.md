@@ -4,6 +4,8 @@ O **Job Hunter** é uma solução completa para automação de busca de vagas re
 
 O projeto foi construído para operar tanto integrado a agentes locais (como **OpenBot**) quanto de forma autônoma via painel web interativo e scripts em Python.
 
+![Fluxograma de Instalação e Configuração](fluxograma_instalacao.gif)
+
 ---
 
 ## Principais Funcionalidades
