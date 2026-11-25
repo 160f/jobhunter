@@ -81,15 +81,18 @@ copy candidaturas_acompanhamento.example.csv candidaturas_acompanhamento.csv
 
 Abra `perfil_cv_referencia.txt` no seu editor e insira suas qualificações, competências, histórico profissional e preferências reais.
 
+> [!TIP]
+> **Configuração Visual pelo Painel:** Você não precisa editar arquivos `.json` manualmente! Ao iniciar o painel web, acesse a aba **⚙ Configurações** para habilitar plataformas de busca, escolher cargos-alvo, definir modalidades e regimes (CLT/PJ), ajustar o horário da checagem diária de e-mails e alternar o modo de envio com apenas alguns cliques.
+
 ### 4. Iniciar o Painel Web
 
-Inicie o servidor com recarregamento automático:
+Inicie o servidor com:
 
 ```bash
-python -m uvicorn painel:app --reload --port 8000
+python painel.py
 ```
 
-Abra no navegador: **[http://localhost:8000](http://localhost:8000)**
+Abra no seu navegador: **[http://localhost:8050](http://localhost:8050)** (ou a porta indicada no terminal).
 
 ---
 
