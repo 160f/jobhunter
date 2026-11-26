@@ -4,7 +4,7 @@ O **Job Hunter** é uma solução completa para automação de busca de vagas re
 
 O projeto foi construído para operar tanto integrado a agentes locais (como **OpenBot**) quanto de forma autônoma via painel web interativo e scripts em Python.
 
-![Fluxograma de Instalação e Configuração](fluxograma_instalacao.gif)
+![Job Hunter Agent Workflow](jobhunter_aesthetic.gif)
 
 ---
 
@@ -33,6 +33,7 @@ O projeto foi construído para operar tanto integrado a agentes locais (como **O
 ├── candidaturas_acompanhamento.example.csv # Cabeçalho do histórico de acompanhamento de envios
 ├── curriculos/                          # Diretório onde os PDFs gerados são armazenados
 └── scripts/
+    ├── garantir_painel.py               # Inicializador automático e idempotente do painel web
     ├── job_hunter_v3_1.py               # Motor de busca multi-API e pré-filtragem
     ├── config_job_hunter_v3_1.json      # Configuração de endpoints e parâmetros das buscas
     └── gerador_curriculo.py             # Script de suporte para geração de currículos em PDF
@@ -41,6 +42,8 @@ O projeto foi construído para operar tanto integrado a agentes locais (como **O
 ---
 
 ## Como Instalar e Rodar
+
+![Fluxograma de Instalação e Configuração](fluxograma_instalacao.gif)
 
 ### 1. Pré-requisitos
 - Python 3.10 ou superior instalado.
@@ -135,12 +138,12 @@ Integrar o **Job Hunter** no **OpenBot** com um modelo **Gemini** (Google) é a 
    - **15:00 — Busca Incremental:** Consulta rápida para capturar anúncios recém-publicados.
    - **18:00 — Verificação Diária de E-mail (Gmail):** O agente com Gemini consulta os e-mails do dia buscando retornos de candidaturas (*"entrevista"*, *"interview"*, *"processo seletivo"*, *"rejeição"*) e atualiza os status nos arquivos CSV.
 
-4. **Iniciar o Painel Web do Agente:**
-   Para acompanhar visualmente pelo painel interativo, basta rodar no terminal da pasta:
+4. **Painel Web com Inicialização Automática:**
+   O painel web é verificado e iniciado automaticamente em segundo plano ao abrir o OpenBot ou ao executar qualquer rotina (via `scripts/garantir_painel.py`). Caso prefira iniciá-lo manualmente pela linha de comando:
    ```bash
    python painel.py
    ```
-   E acessar `http://localhost:8050`.
+   Acesse no navegador: **[http://localhost:8050](http://localhost:8050)**.
 
 ---
 
