@@ -93,6 +93,7 @@
 - Gupy: Vagas remotas no Brasil
 - LinkedIn: Feed e buscas filtradas para Brasil
 ## Preferências Operacionais Ativas
+- Inicialização do Painel Web: Ao abrir o OpenBot ou iniciar qualquer rotina/sessão, verificar se o painel web está ativo em http://localhost:8050. Se não estiver rodando, iniciar imediatamente em segundo plano executando `python scripts/garantir_painel.py`.
 - Modalidades aceitas: Remota
 - Regimes aceitos: CLT, PJ
 - Modo de envio: Envio automático nas vagas elegíveis (respeitando pausas de bloqueio/CAPTCHA/2FA)

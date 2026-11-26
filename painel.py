@@ -2467,3 +2467,8 @@ def abrir_curriculo(nome_arquivo: str):
     if not str(caminho).startswith(str(CURRICULOS_DIR.resolve())) or not caminho.exists():
         raise HTTPException(status_code=404, detail="Currículo não encontrado.")
     return FileResponse(caminho, media_type="application/pdf")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("painel:app", host="127.0.0.1", port=8050, reload=False)
